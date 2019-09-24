@@ -22,4 +22,8 @@ class Owner
     @@owner_count
   end
   
+  def self.reset_all
+    @@all = []
+  end
+  
 end
