@@ -68,4 +68,6 @@ class Owner
       dog.mood = "nervous"
     end
     dog_array.clear
+  end
+  
 end
