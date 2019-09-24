@@ -27,6 +27,6 @@ class Owner
   end
   
   def cats
-    
+    Cats.all.find_all {
   
 end
