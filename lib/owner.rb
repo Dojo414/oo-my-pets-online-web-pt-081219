@@ -61,13 +61,13 @@ class Owner
     dog_array = dogs
     cat_array.each do |cat|
       cat.mood = "nervous"
-      cat.owner = ""
+      cat.owner = nil
     end
     
     
     dog_array.each do |dog|
       dog.mood = "nervous"
-      dog.owner = ""
+      dog.owner = nil
     end
   end
   
