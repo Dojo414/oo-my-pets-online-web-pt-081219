@@ -61,9 +61,9 @@ class Owner
     dog_array = dogs
     cat_array.each do |cat|
       cat.mood = "nervous"
-      cat_array.splice(cat)
     end
     dog_array.each do |dog|
       dog.mood = "nervous"
+    end
   
 end
