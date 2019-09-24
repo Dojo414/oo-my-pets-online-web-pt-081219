@@ -62,8 +62,10 @@ class Owner
     cat_array.each do |cat|
       cat.mood = "nervous"
     end
+    cat_array.clear
+    
     dog_array.each do |dog|
       dog.mood = "nervous"
     end
-  
+    dog_array.clear
 end
