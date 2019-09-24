@@ -56,4 +56,13 @@ class Owner
     end
   end
   
+  def sell_pets
+    cat_array = cats
+    dog_array = dogs
+    cat_array.each do |cat|
+      cat.mood = "nervous"
+    end
+    dog_array.each do |dog|
+      dog.mood = "nervous"
+  
 end
