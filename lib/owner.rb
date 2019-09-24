@@ -18,7 +18,7 @@ class Owner
     @@all
   end
   
-  def self.coun
+  def self.count
     @@owner_count
   end
   
